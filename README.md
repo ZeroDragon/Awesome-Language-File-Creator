@@ -30,7 +30,7 @@ Feeling like using some ZSH power? just add this to your .zshrc under your alias
 ```deploy-lang() {make -C [PATH_TO_THIS_REPO] REP=$PWD/"$*"}```  
   
 Finally you can do something like this from your CI root folder:  
-```deploy-lang```  
+``` deploy-lang ```  
 
 ###Import existing langs
 * Copy your existing lang contents to the **dictionaries** files contents
